@@ -7,3 +7,4 @@ H:\214szft\aszmo projektek\clean\kock poker\kockpoker\kockpoker\obj\Debug\kockpo
 H:\214szft\aszmo projektek\clean\kock poker\kockpoker\kockpoker\obj\Debug\kockpoker.csproj.CoreCompileInputs.cache
 H:\214szft\aszmo projektek\clean\kock poker\kockpoker\kockpoker\obj\Debug\kockpoker.exe
 H:\214szft\aszmo projektek\clean\kock poker\kockpoker\kockpoker\obj\Debug\kockpoker.pdb
+H:\214szft\aszmo projektek\clean\kock poker\kockpoker\kockpoker\obj\Debug\kockpoker.Game.resources
