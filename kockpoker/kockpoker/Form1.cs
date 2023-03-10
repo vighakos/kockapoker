@@ -15,6 +15,8 @@ namespace kockpoker
         public Form1()
         {
             InitializeComponent();
+
+            
         }
     }
 }
