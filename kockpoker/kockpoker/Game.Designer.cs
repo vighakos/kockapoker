@@ -35,6 +35,9 @@ namespace kockpoker
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.roundStatusLbl = new System.Windows.Forms.Label();
+            this.rollBtn = new System.Windows.Forms.Button();
+            this.endRoundBtn = new System.Windows.Forms.Button();
+            this.rollChoiceCbox = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // label1
@@ -103,12 +106,46 @@ namespace kockpoker
             this.roundStatusLbl.Text = "text";
             this.roundStatusLbl.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // rollBtn
+            // 
+            this.rollBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.rollBtn.Location = new System.Drawing.Point(140, 135);
+            this.rollBtn.Name = "rollBtn";
+            this.rollBtn.Size = new System.Drawing.Size(95, 51);
+            this.rollBtn.TabIndex = 6;
+            this.rollBtn.Text = "Roll";
+            this.rollBtn.UseVisualStyleBackColor = true;
+            this.rollBtn.Click += new System.EventHandler(this.rollBtn_Click);
+            // 
+            // endRoundBtn
+            // 
+            this.endRoundBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.endRoundBtn.Location = new System.Drawing.Point(140, 192);
+            this.endRoundBtn.Name = "endRoundBtn";
+            this.endRoundBtn.Size = new System.Drawing.Size(95, 51);
+            this.endRoundBtn.TabIndex = 7;
+            this.endRoundBtn.Text = "End round";
+            this.endRoundBtn.UseVisualStyleBackColor = true;
+            this.endRoundBtn.Click += new System.EventHandler(this.endRoundBtn_Click);
+            // 
+            // rollChoiceCbox
+            // 
+            this.rollChoiceCbox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.rollChoiceCbox.FormattingEnabled = true;
+            this.rollChoiceCbox.Location = new System.Drawing.Point(107, 249);
+            this.rollChoiceCbox.Name = "rollChoiceCbox";
+            this.rollChoiceCbox.Size = new System.Drawing.Size(164, 21);
+            this.rollChoiceCbox.TabIndex = 8;
+            // 
             // Game
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(800, 369);
+            this.Controls.Add(this.rollChoiceCbox);
+            this.Controls.Add(this.endRoundBtn);
+            this.Controls.Add(this.rollBtn);
             this.Controls.Add(this.roundStatusLbl);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
@@ -116,7 +153,7 @@ namespace kockpoker
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "Game";
-            this.Text = "video gam";
+            this.Text = "jácci";
             this.ResumeLayout(false);
 
         }
@@ -129,5 +166,8 @@ namespace kockpoker
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label roundStatusLbl;
+        private System.Windows.Forms.Button rollBtn;
+        private System.Windows.Forms.Button endRoundBtn;
+        private System.Windows.Forms.ComboBox rollChoiceCbox;
     }
 }
