@@ -53,5 +53,10 @@ namespace kockpoker
         {
 
         }
+
+        private void Game_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

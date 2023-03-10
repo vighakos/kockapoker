@@ -15,10 +15,23 @@ namespace kockpoker
         public Form1()
         {
             InitializeComponent();
+        }
 
-            Form game = new Game(new List<string> { "egy", "ketto", "harmo"});
-
+        private void Teszt()
+        {
+            Form game = new Game(new List<string> { "egy", "ketto", "harmo" });
+            this.Hide();
             game.ShowDialog();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Teszt();
+        }
+
+        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

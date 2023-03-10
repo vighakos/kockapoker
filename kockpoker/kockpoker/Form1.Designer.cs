@@ -49,6 +49,7 @@ namespace kockpoker
             this.button1.TabIndex = 1;
             this.button1.Text = "START";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // player1box
             // 
@@ -126,6 +127,7 @@ namespace kockpoker
             this.MinimumSize = new System.Drawing.Size(370, 449);
             this.Name = "Form1";
             this.Text = "kjubpokerxd";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

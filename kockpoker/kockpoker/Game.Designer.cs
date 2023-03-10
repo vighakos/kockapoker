@@ -154,6 +154,7 @@ namespace kockpoker
             this.Controls.Add(this.label1);
             this.Name = "Game";
             this.Text = "jácci";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Game_FormClosing);
             this.ResumeLayout(false);
 
         }
