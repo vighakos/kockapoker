@@ -19,7 +19,7 @@ namespace kockpoker
 
         // Visszaad egy annyi elemű listát, ahány üres hely van a játékos kezében
         // random számok 1-6
-        public List<int> Throw 
+        public List<int> Throw
         {
             get
             {
