@@ -7,3 +7,13 @@ H:\214szft\aszmo projektek\clean\kock poker\kockpoker\kockpoker\obj\Debug\kockpo
 H:\214szft\aszmo projektek\clean\kock poker\kockpoker\kockpoker\obj\Debug\kockpoker.csproj.CoreCompileInputs.cache
 H:\214szft\aszmo projektek\clean\kock poker\kockpoker\kockpoker\obj\Debug\kockpoker.exe
 H:\214szft\aszmo projektek\clean\kock poker\kockpoker\kockpoker\obj\Debug\kockpoker.pdb
+D:\214szft\tsiztakode(nemxd)\cubepokler\kockpoker\kockpoker\bin\Debug\kockpoker.exe.config
+D:\214szft\tsiztakode(nemxd)\cubepokler\kockpoker\kockpoker\bin\Debug\kockpoker.exe
+D:\214szft\tsiztakode(nemxd)\cubepokler\kockpoker\kockpoker\bin\Debug\kockpoker.pdb
+D:\214szft\tsiztakode(nemxd)\cubepokler\kockpoker\kockpoker\obj\Debug\kockpoker.csprojAssemblyReference.cache
+D:\214szft\tsiztakode(nemxd)\cubepokler\kockpoker\kockpoker\obj\Debug\kockpoker.Form1.resources
+D:\214szft\tsiztakode(nemxd)\cubepokler\kockpoker\kockpoker\obj\Debug\kockpoker.Properties.Resources.resources
+D:\214szft\tsiztakode(nemxd)\cubepokler\kockpoker\kockpoker\obj\Debug\kockpoker.csproj.GenerateResource.cache
+D:\214szft\tsiztakode(nemxd)\cubepokler\kockpoker\kockpoker\obj\Debug\kockpoker.csproj.CoreCompileInputs.cache
+D:\214szft\tsiztakode(nemxd)\cubepokler\kockpoker\kockpoker\obj\Debug\kockpoker.exe
+D:\214szft\tsiztakode(nemxd)\cubepokler\kockpoker\kockpoker\obj\Debug\kockpoker.pdb
