@@ -10,11 +10,13 @@ namespace kockpoker
     {
         public string Name;
         public List<int> Hand; // Azok a számok amik őő hát így a játékos megtartja
+        public int Rolls;
 
         public Player(string name)
         {
             Name = name;
             Hand = new List<int>();
+            Rolls = 3;
         }
 
         // Visszaad egy annyi elemű listát, ahány üres hely van a játékos kezében

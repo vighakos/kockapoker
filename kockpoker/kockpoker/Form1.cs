@@ -16,7 +16,9 @@ namespace kockpoker
         {
             InitializeComponent();
 
-            
+            Form game = new Game(new List<string> { "egy", "ketto", "harmo"});
+
+            game.ShowDialog();
         }
     }
 }
